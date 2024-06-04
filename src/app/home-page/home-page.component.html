@@ -1,0 +1,26 @@
+<div class="titleContainer">
+    <div>GUESS THAT POKEMON</div>
+</div>
+
+<div class="topContainer">
+    <div [style.gap.px]="this.answer === '?' ? 40 : 160" class="topTitle">
+        <div>SCORE</div>
+        <div>TYPE</div>
+        <div>ANSWER</div>
+        <div class="check" *ngIf="gotCorrect">&check;</div>
+    </div>
+    <div class="botTitle">
+        <div>{{this.score}}</div>
+        <div>{{this.type}}</div>
+        <div>{{this.answer}}</div>
+    </div>
+</div>
+
+
+
+<app-handtracker (onPrediction)="prediction($event)"></app-handtracker>
+
+<div class="currGes" [innerHTML]="gesture" #displayedGesture></div>
+
+<app-pokelist></app-pokelist>
+

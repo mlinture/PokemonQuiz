@@ -1,0 +1,17 @@
+<div class="videoContainer">
+    <video id="htvideo" #htvideo name="htvideo" class="videobox" autoplay="autoplay"></video>
+    <div class="options">
+        <h3>Choose the gesture corresponding to the number next to the Pokemon!</h3>
+        <div>1. Open Hand</div>
+        <div>2. Two Open Hands </div>
+        <div> 3. Closed hand</div>
+        <div>4. Two Closed Hands</div>
+        <div>5. Hand Pointing</div>
+        <strong>After getting the correct answer, do a Point and Closed gesture to move on to the next question!</strong>
+    </div>
+</div>
+
+<div class="buttonContainer">
+<button (click)="startDetection()">Start</button>
+<button (click)="stopDetection()">Stop</button>
+</div>

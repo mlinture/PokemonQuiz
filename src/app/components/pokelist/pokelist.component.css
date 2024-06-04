@@ -1,0 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/pixel-gaming');;
+
+.generateButton{
+    color: white;
+    background-color: red;
+}
+
+.monList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 20%;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.prompt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pixel Gaming';
+    font-size: 64px;
+}
+
+.sprite{
+    width: 200px;
+    height: auto
+}

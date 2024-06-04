@@ -1,0 +1,14 @@
+<tbody>
+    <tr class="monList">
+        <ng-container *ngFor="let mon of currMons; let i = index">
+            <td>
+                <div class="mons">
+                    {{i+1}}
+                    <img class="sprite" src={{mon.imageURL_front}}>
+                </div>
+            </td>
+        </ng-container>
+
+    </tr>
+</tbody>
+<h1 class="prompt" *ngIf="this.correct">Question {{this.questionNum}}: CHOOSE {{this.correct.name}}!!!</h1>

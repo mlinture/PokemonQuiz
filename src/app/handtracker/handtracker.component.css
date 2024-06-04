@@ -1,0 +1,23 @@
+.videoContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.options{
+    padding-top: 10px;
+    text-align: left;
+    margin-left: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+.videobox{
+    border: 3px solid #0063FF;
+    border-color: #0063FF;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.buttonContainer button{
+    background-color:red;
+    color: white;
+}
